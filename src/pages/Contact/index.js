@@ -2,11 +2,11 @@ import { useEffect, useState } from 'react';
 import axios from 'axios'
 
 
-const People = () => {
+const Contact = () => {
 
     const [people, setPeople] = useState([])
     // const [editForm, setEditForm] = useState(false)
-    const [studentToEdit, setStudentToEdit] = useState({})
+    // const [studentToEdit, setStudentToEdit] = useState({})
 
     useEffect(() => {
         fetchContacts()
@@ -31,4 +31,4 @@ const People = () => {
     );
 }
 
-export default People;
+export default Contact;
