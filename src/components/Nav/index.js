@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
+import './styles.css'
 
 const Nav = () => {
     return (
-        <div>
+        <div className="navbar-contents">
             <div className="ui menu">
                 <Link className="item" to="/">
                     <h1>Hanna Schroy</h1>

@@ -1,0 +1,11 @@
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4vw;
+    text-align: center;
+}
+
+.about-text {
+    line-height: 1.6;
+}

@@ -1,18 +1,21 @@
 import elefluff from '../../images/elefluff_icon.jpg'
+import './styles.css'
 
 const About = () => {
     return (
-        <div>
+        <div className="about-container">
             <img src={elefluff} alt="elefluff-icon" />
-            <p>
-                My name is Hanna and I am a freelance Cartoonist, Storyboard Artist, and Illustrator.
+            <h4 className="about-text">
+                Hanna Schroy is a TX-based freelance Cartoonist, Storyboard Artist, and Illustrator.
 
-                I was born and raised in Texas until college where I attended the Savannah College of Art and Design in Atlanta, Georgia, graduating in 2017.  I am currently residing in Austin, TX, though who knows where the future may take me!
+                Born and raised in Texas, attended the Savannah College of Art and Design in Atlanta, GA, graduated in 2017.
 
-                I love to read and draw comics and I have a strong passion for video games. Stories with romance, friendship, and a little horror are my absolute favorites.
+                Currently, she resides in Austin, TX.
 
-                Check out my upcoming convention schedule or reach out to me through my contact page!
-            </p>
+                Hanna spends her "free time" reading and drawing comics, and has a strong passion for video games. Stories that include romance, friendship, and a dash of horror are her favorites.
+
+                Check out Hanna's upcoming convention schedule or reach out to her through her contact page!
+            </h4>
         </div>
     );
 }
