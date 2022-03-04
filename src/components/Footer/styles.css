@@ -1,0 +1,16 @@
+footer {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.socmed-links {
+    display: flex;
+    justify-content: space-around;
+}
