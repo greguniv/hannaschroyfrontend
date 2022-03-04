@@ -1,4 +1,5 @@
 .mainhome-container {
     display: flex;
-    height: 60vh;
+    flex-wrap: wrap;
+
 }
