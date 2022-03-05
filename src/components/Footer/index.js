@@ -1,4 +1,4 @@
-import { SiTiktok, SiKofi, SiEtsy, SiTwitter, SiInstagram, SiYoutube } from "react-icons/si";
+import { SiTiktok, SiKofi, SiTwitter, SiInstagram, SiYoutube } from "react-icons/si";
 import { FaEtsy } from "react-icons/fa";
 import './styles.css'
 
