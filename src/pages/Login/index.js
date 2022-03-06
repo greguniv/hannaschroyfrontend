@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './styles.css'
 
-const Login = () => {
+const Login = ({ setUser }) => {
 
     const [username, setUsername] = useState('')
     const navigate = useNavigate()
@@ -13,9 +13,11 @@ const Login = () => {
 
     const handleSubmit = e => {
         e.preventDefault()
-        setUsername(username)
+        setUser(username)
         navigate('/contact')
     }
+
+    // console.log('user', username)
 
     return (
         <div className="form-container" onSubmit={handleSubmit}>

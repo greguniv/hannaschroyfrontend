@@ -23,7 +23,7 @@ const Contact = () => {
         }
     }
 
-    console.log("This is our state", people)
+    // console.log("This is our state", people)
 
     return (
         <div className="contact-form-container">

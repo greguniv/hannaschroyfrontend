@@ -1,4 +1,5 @@
 import './styles.css'
+import { Link } from 'react-router-dom'
 // Images
 import griffons from '../../images/Illustrations/elefluff_griffons_online.png'
 import midnight from '../../images/Storyboards/slide191.png'
@@ -35,11 +36,11 @@ const Home = () => {
             <div className='row'>
                 <div className='left floated center aligned column'>
                         <div className="ui raised card" id='midnight'>
-                            <a className="image" href="#">
+                            <Link className="image" to="/storyboards">
                                 <img src={midnight} />
-                            </a>
+                            </Link>
                             <div className="content">
-                                <a className="header" href="#">STORYBOARDS</a>
+                                <Link className="header" to="/storyboards">STORYBOARDS</Link>
                             </div>
                         </div>
                     </div>
