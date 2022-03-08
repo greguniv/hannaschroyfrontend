@@ -8,7 +8,7 @@ const Upcoming = () => {
                     <img src="" />
                 </a>
                 <div className="content">
-                    <a className="header" href="#">Upcoming Conventions</a>
+                    <a className="header" href="#">Upcoming Appearances</a>
                 </div>
                 <div className="meta">
                     <a>Con List Here</a>
